@@ -3,6 +3,8 @@
 theme: default
 background:
 title: (Vibe) Coding for Curating a Web-Native Exhibition
+author: "Yifan WANG"
+keywords: "vibe coding, digital curation, web-native exhibition, AI collaboration, digital scholarship, HKUST Library"
 info: |
   Editorial Neobrutalist Two-Column Slidev Template
 fonts:
@@ -16,6 +18,11 @@ drawings:
   persist: false
 transition: slide-up
 mdc: false
+
+seoMeta:
+  ogTitle: "(Vibe) Coding for Curating a Web-Native Exhibition"
+  ogDescription: "Reflective, AI-collaborative webmaking for DH exhibitions, explored through developing DScape Archive for HKUST Library."
+  ogUrl: "https://yifanwo.github.io/vibe-coding-exhibition-slides/"
 ---
 
 # (Vibe) Coding for Curating a Web-Native Exhibition

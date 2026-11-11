@@ -16,7 +16,7 @@ const liveDeckUrl = computed(() => {
     return window.location.origin + window.location.pathname.replace(/\/\d+$/, '')
   }
 
-  return 'https://yifanwo.github.io/vibe-coding-exhibition-slides/'
+  return 'https://github.com/yifanwo/vibe-coding-exhibition-slides#readme'
 })
 
 </script>
