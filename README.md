@@ -1,6 +1,8 @@
 # Vibe Coding Exhibition Slides
 
-Presentation slides for “(Vibe) Coding for Curating a Web-Native Exhibition,” a workshop designed for the Fall 2026 course HUMA1660 Introduction to Chinese Art. Through AI-assisted workflows for designing and developing online exhibitions, the workshop demonstrates a reflective, AI-collaborative approach to webmaking as a practical model for students undertaking the course group project.
+Presentation slides for “(Vibe) Coding for Curating a Web-Native Exhibition,” a workshop designed for the Fall 2026 course HUMA1660 Introduction to Chinese Art. 
+
+Through AI-assisted workflows for designing and developing online exhibitions, the workshop demonstrates a reflective, AI-collaborative approach to webmaking as a practical model for students undertaking the course group project.
 
 ## View the Slides
 
@@ -17,31 +19,55 @@ Built with Slidev, Vue, Vite, and custom layouts/components.
 - **Gemini 4 Argon:** Slides layout/implementation
 - **GPT-5.6 Sol:** Slidev deploy/debug
 
-## Demos
+## Demos & Development
 
-PATH 2
+### PATH 2: Learn - (half)Scratch
+*Built with Poe/Claude Sonnet 4.6*
 - https://library.hkust.edu.hk/ds-colab/p005/infinite-canvas/
+- Reference: https://tympanus.net/Tutorials/InfiniteCanvas/
 
-PATH 3
+### PATH 3: Prompt w/ Cursor
+*Built with Grok 4.7, Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
 - https://yifanwo.github.io/dscape-archive/1.0.3.html
+- Reference: https://motionsites.ai/3d-websites?prompt=feathers-atlas
 
-PATH 4
+### PATH 4: NL w/ Cursor
+*Built with Grok 4.7, Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
 - https://yifanwo.github.io/dscape-archive/1.0.4.html
 
-PATH 5
-- https://yifanwo.github.io/dscape-archive/1.0.5-1.html
-- https://yifanwo.github.io/dscape-archive/1.0.5-2.html
-- https://yifanwo.github.io/dscape-archive/1.0.5-3.html
-- https://yifanwo.github.io/dscape-archive/1.0.5-4.html
+### PATH 5: NL (Style + Scroll + Story) -> Prompt/Skill
+1. Particle, Glitch Art
 
-PATH 6
+*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
+- https://yifanwo.github.io/dscape-archive/1.0.5-1.html
+
+2. Acid Particle + Scroll Effect + Story Sections
+
+*Built with MiniMax-M3.1-Flash, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
+- https://yifanwo.github.io/dscape-archive/1.0.5-2.html
+
+*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
+- https://yifanwo.github.io/dscape-archive/1.0.5-3.html
+
+3. ASCII + Story Sections
+
+*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
+- https://yifanwo.github.io/dscape-archive/1.0.5-4.html
+- Reference: https://github.com/stackedlol/ascii-sharks
+
+### PATH 6: NL - Twine
+*Built with Grok Bot using SugerCube in Twine, Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, Grok Imagine 2, and Qwen 3.6.*
 - https://yifanwo.github.io/dscape-archive/1.0.6-1.html
+
+*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
 - https://yifanwo.github.io/dscape-archive/1.0.6-2.html
 
-PATH 7
+### PATH 7: NL - (hybrid)Scratch
+*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
 - https://yifanwo.github.io/dscape-archive/1.0.7.html
+- Reference: https://unifiersofjapan.framer.website/
 
-**[DScape Archive Repository](https://github.com/yifanwo/dscape-archive)**
+### [DScape Archive Repository](https://github.com/yifanwo/dscape-archive)
 
 ## Related
 
