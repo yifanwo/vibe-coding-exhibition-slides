@@ -23,15 +23,24 @@ mdc: false
 <div class="h-24"></div>
 Yifan WANG
 
-<div class="h-8"></div>
+<div class="h-3"></div>
+<span class="ml-3 opacity-72 text-sm">
 Assistant Librarian (Digital Humanities)
+</span>
 
-<div class="h-4"></div>
+<div class="h-2"></div>
+<span class="ml-3 opacity-72 text-sm">
 HKUST Library
+</span>
 
-<div class="pt-12">
+<div class="pt-8"></div>
+<span class="ml-0 opacity-89 text-sm">
+2026-11-05 
+</span>
+
+<div class="pt-4">
   <span @click="$slidev.nav.next" class="dream-pill cursor-pointer">
-    2026-11-05 <carbon:arrow-right class="inline"/>
+   Keys<carbon:arrow-right class="inline"/> <carbon:arrow-down class="inline"/> · Scroll <carbon:arrows-vertical class="inline"/>
   </span>
 </div>
 
@@ -1039,4 +1048,5 @@ layout: default
 <hr class="my-12 border-[#D83B78]/25" />
 
 ### Presented with Slidev (markdown + vue + vite)
-###### slides layout formatter: `Gemini 4 Argon`
+###### layout/implementation assistance: `Gemini 4 Argon`
+###### deploy/debug assistance: `GPT-5.6 Sol`
