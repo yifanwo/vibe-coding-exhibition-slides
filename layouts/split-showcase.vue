@@ -9,14 +9,8 @@ const props = defineProps<{
   siteUrl?: string
 }>()
 
-// Automatically detects live URL in browser, or falls back to your planned GitHub Pages URL
 const liveDeckUrl = computed(() => {
-  if (props.siteUrl) return props.siteUrl
-  if (typeof window !== 'undefined' && !window.location.hostname.includes('localhost') && !window.location.hostname.includes('127.0.0.1')) {
-    return window.location.origin + window.location.pathname.replace(/\/\d+$/, '')
-  }
-
-  return 'https://github.com/yifanwo/vibe-coding-exhibition-slides#readme'
+  return props.siteUrl || 'https://github.com/yifanwo/vibe-coding-exhibition-slides#readme'
 })
 
 </script>
